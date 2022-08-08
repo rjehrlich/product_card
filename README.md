@@ -54,7 +54,7 @@ This section will outline areas that I want to continue focusing on in future pr
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - 
+- Frontend Mentor - @rjehrlich(https://www.frontendmentor.io/profile/rjehrlich)
 
 
