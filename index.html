@@ -6,33 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="/resources/css/index.css">
+  <link rel="stylesheet" type="text/css" href="../resources/css/index.css">
+  
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+   <main class="card">
+    <picture>
+      <source media="(max-width: 768px)" srcset="resources/images/image-product-mobile.jpg">
+      <img class="pdt_img" src="resources/images/image-product-desktop.jpg" alt="Perfume bottle">
+    </picture>
+    <article>
+      <h1 id="perfume">Perfume</h1>
+      <h2>Gabrielle Essence Eau De Parfum</h2>
+    
+      A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.
+    
+      $149.99
+      $169.99
+    
+      <button>Add to Cart</button>
+    </article>
 
-  Preview
+   </main> 
 
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-  
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/rjehrlich">Rachel Ehrlich</a>.
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/rjehrlich">Rachel Ehrlich</a>.</p>
   </footer>
 </body>
 </html>
